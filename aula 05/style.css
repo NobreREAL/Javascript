@@ -1,0 +1,78 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+div{
+    display:flex;
+    flex-direction: column;
+    border-radius:10px;
+    transform: translatey(0px);
+}
+
+body{
+    background-color: gray;
+}
+
+
+div.retangulo
+{
+    width:200px;
+    height:400px;
+    position:absolute;
+    top:25%;
+    left:40%;
+    background-color: rgb(14, 14, 14);
+    box-shadow:0px 0px 100px rgba(55, 0, 255, 0.61);
+    animation: float 5s ease-in-out infinite;
+}
+
+div.celular{
+    position:absolute;
+    background-color: black;
+    width:180px;
+    height:365px;
+    margin:auto;
+    top:3%;
+    left:5%;
+}
+
+button{
+    position:absolute;
+    background-color:rgb(17, 17, 17);
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    border:1px solid black;
+    transform: translate(-50% -50%);
+    left:41%;
+    top:90%;
+}
+
+button:hover{
+    background-color:rgb(36, 36, 36);
+    border:2px solid black;
+}
+
+img#logo{
+    position:relative;
+    width:100px;
+    left:25%;
+    top:40%;
+    opacity:0%;
+}
+
+@keyframes float{
+    0%{
+        transform:translatey(0px);
+    }
+
+    50%{
+        transform:translatey(-30px);
+    }
+
+    100%{
+        transform:translatey(0px);
+    }
+}
+
