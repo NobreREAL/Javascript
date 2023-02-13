@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background:black url("img/background.jpg") center bottom fixed no-repeat;
+    background-size:cover;
+}
+
+img.logo{
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:7%;
+    left:9%;
+    max-width:16%;
+}
